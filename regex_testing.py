@@ -19,20 +19,26 @@ def identify_apex_from_filename(filename):
 
 
 # test cases
-identify_apex_from_filename('Apex4_cc__amqc_DQC_000001_2022126_003.dat')
+# identify_apex_from_filename('Apex4_cc__amqc_DQC_000001_2022126_003.dat')
 
-identify_apex_from_filename('APEX004-CC_AMQC_DQC_000001_2022286_001.dat')
+# identify_apex_from_filename('APEX004-CC_AMQC_DQC_000001_2022286_001.dat')
 
-identify_apex_from_filename('APEX5_cc_PMQC_DQC_000001_2022136_001.dat')
+# identify_apex_from_filename('APEX5_cc_PMQC_DQC_000001_2022136_001.dat')
 
-identify_apex_from_filename('APEX010-CC_PMQC_DQC_000001_2022291_003.dat')
+# identify_apex_from_filename('APEX010-CC_PMQC_DQC_000001_2022291_003.dat')
 
-identify_apex_from_filename('APEX013-CC_AMQC_DQC_000001_2022294_003.dat')
+# identify_apex_from_filename('APEX013-CC_AMQC_DQC_000001_2022294_003.dat')
 
-identify_apex_from_filename('APEX13_CC_PMQC_DQC_000001_2022129_001.dat')
+# identify_apex_from_filename('APEX13_CC_PMQC_DQC_000001_2022129_001.dat')
 
-identify_apex_from_filename('APEX019-LEB-20220803_IVS2-PM_DQC_000001_2022216_002.dat')
+# identify_apex_from_filename('APEX019-LEB-20220803_IVS2-PM_DQC_000001_2022216_002.dat')
 
-identify_apex_from_filename('APEX014-CampRobinson-1_IVS_DQC_000001_2022308_006.dat')
+# identify_apex_from_filename('APEX014-CampRobinson-1_IVS_DQC_000001_2022308_006.dat')
 
-identify_apex_from_filename('20220511_APEX11_BAFS_IVS3_DQC_000001_2022132_003.dat')
+# identify_apex_from_filename('20220511_APEX11_BAFS_IVS3_DQC_000001_2022132_003.dat')
+
+
+print(int(re.findall('\d*', '17N')[0]))
+print(int(re.findall('\d*', '7N')[0]))
+print(re.findall('\D', '17N')[0])
+print(re.findall('\D', '72N')[0])
